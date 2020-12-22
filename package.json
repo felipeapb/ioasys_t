@@ -1,0 +1,26 @@
+{
+  "name": "ioasys",
+  "version": "1.0.0",
+  "description": "teste para ioasys",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://felipeantunes@bitbucket.org/felipeantunes/ioasys.git"
+  },
+  "keywords": [
+    "teste",
+    "ioasys"
+  ],
+  "author": "Felipe Antunes",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/felipeantunes/ioasys#readme",
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "prettier": "^2.2.1"
+  }
+}
