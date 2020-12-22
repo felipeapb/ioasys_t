@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  height: 100vh;
+  color: #383743;
+
+  font-family: Roboto;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #eeecdb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 300px;
+}
+.box p {
+  font-size: 1.063rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.48;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+.box input {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 0.6px solid #383743;
+  background-color: transparent;
+  height: 2.3rem;
+  padding-left: 40px;
+  font-size: 1.369rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.31px;
+}
+.box input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  background: transparent;
+}
+.form-area {
+  position: relative;
+}
+.box label {
+  position: relative;
+  top: 38px;
+}
+
+.view_password {
+  width: 25px;
+  height: 25px;
+  display: block;
+  margin-top: -30px;
+  float: left;
+  margin-left: 100%;
+  text-align: center;
+}
+.view_password img {
+  width: 100%;
+}
+.box_title {
+  margin: 0 auto 1.55rem auto;
+  width: 10.75rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -1.2px;
+  text-align: center;
+}
+.logo_home {
+  width: 97%;
+
+  margin: 0 30px 4rem 0;
+}
+.send-login {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 21.75rem;
+  height: 3.563rem;
+  margin: 2.563rem 0 0;
+  padding: 1.125rem 8.375rem 1rem 8.438rem;
+  border-radius: 3.9px;
+  background-color: #57bbbc;
+  border: none;
+  font-size: 1.208rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.box input:focus,
+.send-login:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  background: transparent;
+}
